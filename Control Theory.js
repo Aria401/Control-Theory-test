@@ -4,8 +4,8 @@ import { parseBigNumber, BigNumber } from "../api/BigNumber";
 import { theory } from "../api/Theory";
 import { Utils } from "../api/Utils";
 import { TouchType } from "../api/UI/properties/TouchType";
-var id = "temperature_control";
-var name = "Temperature Control";
+var id = "temperature_control_cheat_ver";
+var name = "Temperature Control Cheat Ver.";
 var description =
   "Control Theory is a tool used in engineering to maintain a variable at a set value (known as the 'set point'). \n  \
   \n \
@@ -19,7 +19,7 @@ Eventually, you will be able to tune the controller for yourself. While doing so
 
 var authors = "Gaunter#1337, peanut#6368 - developed the theory \n XLII#0042, SnaekySnacks#1161 - developed the sim and helped balancing";
 var version = "2.0.0";
-var publicationExponent = 0.6;
+var publicationExponent = 2;
 var achievements;
 requiresGameVersion("1.4.29");
 
